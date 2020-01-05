@@ -86,36 +86,6 @@ Some WP themes generate many, sometimes 10s of, custom sized thumbnails when an 
 
 In WP 'Add Plugins', seach for 'auto-smart-thumbnails' and 'Install Now', and activate it. 
 
-== Frequently Asked Questions ==
-
-**I just installed the plugin. Is there anything else I need to do?**
-
-No. AST works silently in the background. If your site has many existing thumbnails, you can remove them manually by 'Tools -> Auto Smart Thumbnails' or 'Installed Plugins -> Auto Smart Thumbnails -> Remove Unused Thumbnails'. 
-
-**Some image sizes are not cleaned, why?**
-
-AST doesn't remove the default thumbanil which is defined by WP and WP uses it frequently.
-
-**How do I know which files the plugin cleaned up?**
-
-A list of removed files is available after a cleanup, When a cleanup is done, a message will show how many images is removed. Click on the number to show the list.
-
-**Are there any drawbacks to using AST?**
-
-Not as I know. Your WP website will continue working as is. But your uploads folder will be lighter. It helps save your server storage and makes backup easier and faster. 
-
-**I run into problems. What can I do?**
-You can turn on debug and get the logged debug info. Email it to me or post it at the support forum. Check 'Log debug info for troubleshooting' in 'Settings -> Auto Smart Thumbnails'. After that, you will see a button 'Get Debug Log' in 'Tools -> Auto Smart Thumbnails'. The 'Get Debug Log' button has a minor glitch. I'd like it to show up when there is info logged after a cleanup is done. But it doesn't show. Appreciate if someone can help!
-
-**I still see a lot of big png images, what can I do?**
-To downsize or re-compress image png files to jpg needs to change database. To keep the data and files in sync needs a lot messy code. So I decided not to do it. 
-
-My suggestion is to use XnViewMP to convert the png to jpg before uploading to your media library. XnViewMP can do batch coversion and amazing color correction. It got only one drawback that it can't decide the target size intellgiently as AST does. You need to manually calculate the size to downsize to and different images may need seperate calculations. 
-
-**Have you checked smartcrop plugins currently available?**
-At the moment, there are two plugins: 'SmartCrop' by late Alex Mills (Viper007Bond) and 'WP SmartCrop' by 'Burlington Bytes'. The later provices a tool for users to set a focal point manually. Alex's SmartCrop plugin uses Smart Cropping Class/algorithm developed by Greg Schoppe, which is based on color difference and image entropy and puts the focus of the image at or close to the photograph rule of thirds line. It doesn't do face detection. AST is the first WordPress plugin that does smart crop with face detection.
-
-
 == Screenshots ==
 
 1. Admin UI added by the plugin.
