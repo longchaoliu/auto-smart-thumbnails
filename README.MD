@@ -1,13 +1,4 @@
 === Auto Smart Thumbnails ===
-Contributors: longchaoliu 
-Tags: smart thumbnails, downsize images, cleanup thumbnails, free up server storage, face detection, smart crop
-Donate link: none
-Requires at least: 3.8
-Tested up to: 5.2.3
-Requires PHP: 7.0
-Stable tag: 1.1.0
-License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Plugin creates thumbnails on demand with face detection. Remove unused thumbnails and downsizes images. Free up server storage.
 
