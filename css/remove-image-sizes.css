@@ -1,0 +1,9 @@
+#ast-status-message,
+#ast-log {
+  display: none;
+}
+
+#ast-buttons {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
